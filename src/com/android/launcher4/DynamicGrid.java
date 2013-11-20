@@ -243,7 +243,7 @@ class DeviceProfile {
         } else {
             allAppsNumRows = (int) numRows + 1;
         }
-        allAppsNumCols = (availableWidthPx - padding.left - padding.right - 2 * edgeMarginPx) /
+        allAppsNumCols = (availableWidthPx - padding.left - padding.right - 4 * edgeMarginPx) /
                 (iconSizePx + 2 * edgeMarginPx);
     }
 

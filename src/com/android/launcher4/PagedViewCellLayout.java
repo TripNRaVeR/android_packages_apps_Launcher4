@@ -61,8 +61,8 @@ public class PagedViewCellLayout extends ViewGroup implements Page {
         DeviceProfile grid = app.getDynamicGrid().getDeviceProfile();
         mOriginalCellWidth = mCellWidth = grid.cellWidthPx;
         mOriginalCellHeight = mCellHeight = grid.cellHeightPx;
-        mCellCountX = (int) grid.numColumns;
-        mCellCountY = (int) grid.numRows;
+        mCellCountX = 4;
+        mCellCountY = 4;
         mOriginalWidthGap = mOriginalHeightGap = mWidthGap = mHeightGap = -1;
 
         mChildren = new PagedViewCellLayoutChildren(context);
@@ -154,11 +154,11 @@ public class PagedViewCellLayout extends ViewGroup implements Page {
     }
 
     public int getCellCountX() {
-        return mCellCountX;
+        return 4;
     }
 
     public int getCellCountY() {
-        return mCellCountY;
+        return 4;
     }
 
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
