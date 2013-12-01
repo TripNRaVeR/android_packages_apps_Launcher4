@@ -26,12 +26,11 @@
         launcher:spanX="4"
         launcher:spanY="2" />
     <favorite
-        launcher:packageName="com.android.camera2"
-        launcher:className="com.android.camera.CameraLauncher"
+        launcher:packageName="com.tripndroid.camera"
+        launcher:className="com.tripndroid.camera.CameraLauncher"
         launcher:screen="3"
         launcher:x="3"
         launcher:y="3" />
-
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
     <favorite
         launcher:packageName="com.android.dialer"
